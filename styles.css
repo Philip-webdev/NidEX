@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    overflow-x: hidden;
+    width:fit-content;
+    font-family: Lexend;
+}
+.webgl{
+    position: absolute  ;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: -1;
+    width:100%;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    text-align: center;
+    
+ }
+ #title{
+   margin-left: 17px;
+ 
+ }
+ #exchange{
+    border-radius: 17px;
+    background-color: RGB(0, 131, 208);
+    padding:7px;
+    height:30px;
+    margin-left:100px;
+    color: white;
+    margin-top: 10px;
+    border-style: none;
+ }
+ #Join{
+    border-radius: 17px;
+    background-color: RGB(0, 131, 208);
+    padding:7px;
+    height:70px;
+    top:120%;
+    font-size: 30px;
+    left:35%;
+    width: 200px;
+    color: white;
+    margin-top: 10px;
+    position: absolute;
+    border-style: none;
+ }
+ h2{
+    color:'white';
+ }
+nav{
+    z-index:1;
+    top:0;
+    position: absolute;
+    width:max-content;
+}
+ul{
+    list-style: none;
+    color:white; background: rgb(15,15,15);
+    height:50px;
+    margin-left: 30%;
+    justify-content: space-between;
+    display: flex;  position: absolute;
+    width:100%;
+}
+article{
+    position: absolute;
+    top:150px;
+    left: 15%;
+    color:white;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:80px;
+}
+li{
+    margin: 70px;
+    margin-top:17px;
+  }
+.title{
+    color: white;
+}
