@@ -1,5 +1,5 @@
 import * as THREE from './three';
-import gsap from 'gsap'
+import gsap from './gsap'
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
 const scene = new THREE.Scene()
 
