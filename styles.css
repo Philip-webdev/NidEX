@@ -22,10 +22,8 @@ body, html{
  a{
     text-decoration: none;
     color: white;
-    position: relative;
-    text-align: center;
-    
  }
+
  #title{
    margin-left: 17px;
  
@@ -45,29 +43,27 @@ body, html{
     background-color: RGB(0, 131, 208);
     padding:7px;
     height:70px;
-    top:120%;
+   
     font-size: 30px;
-    left:35%;
     width: 200px;
     color: white;
     margin-top: 10px;
-    position: absolute;
     border-style: none;
  }
  h2{
     color:'white';
  }
 nav{
-    z-index:1;
+    z-index:0;
     top:0;
     position: absolute;
-    width:max-content;
+    width:100%;
+
 }
 ul{
     list-style: none;
     color:white; background: rgb(15,15,15);
     height:50px;
-    margin-left: 30%;
     justify-content: space-between;
     display: flex;  position: absolute;
     width:100%;
@@ -75,11 +71,11 @@ ul{
 article{
     position: absolute;
     top:150px;
-    left: 15%;
     color:white;
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
     font-size:80px;
+    width: 100%;
 }
 li{
     margin: 70px;

@@ -1,4 +1,4 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0. 152.2/build/three.module.js';
+import * as THREE from 'three';
 import gsap from 'gsap'
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
 const scene = new THREE.Scene()
@@ -24,16 +24,16 @@ const sizes = {
 
 
 
-const camera = new THREE.PerspectiveCamera(45, sizes.width / sizes.height, 0.1, 100)
-camera.position.z = 10
-camera.position.y = 10
+const camera = new THREE.PerspectiveCamera(45, sizes.width / sizes.height, 10, 100)
+camera.position.z = 15
+
 
 scene.add(camera)
 
 const canvas = document.querySelector(".webgl");
 const renderer = new THREE.WebGLRenderer({canvas})
 
-renderer.setSize(sizes.width, sizes.height)
+renderer.setSize(sizes.width, sizes.width)
 renderer.setPixelRatio(2)
 renderer.render(scene, camera)
 
