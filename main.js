@@ -1,8 +1,8 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/Addons.js';
+import { OrbitControls } from '/node_modules/three/examples/jsm/Addons.js';
 const scene = new THREE.Scene()
 
-const geometry = new THREE.OctahedronGeometry(3, 0)
+const geometry = new THREE.OctahedronGeometry(2, 0)
 const light = new THREE.PointLight(0xFFFFFF, 50, 150)
 light.position.set(10, 10, 10)
 scene.add(light)
