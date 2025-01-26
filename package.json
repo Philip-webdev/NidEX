@@ -4,7 +4,9 @@
   "description": "blockchain 3d website",
   "main": "y",
   "scripts": {
-    "test": "npx vite"
+    "test": "npx vite",
+  "build": "vite build",
+  "dev": "vite"
   },
   "repository": {
     "type": "git",
