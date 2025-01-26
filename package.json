@@ -1,0 +1,36 @@
+{
+  "name": "NidEX",
+  "version": "1.0.0",
+  "description": "blockchain 3d website",
+  "main": "y",
+  "scripts": {
+    "test": "npx vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "later"
+  },
+  "keywords": [
+    "later"
+  ],
+  "author": "Developer Philip, philip_webdev",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "three": "^0.172.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "emscripten": "^0.0.2-beta",
+    "express": "^4.21.1",
+    "gsap": "^3.12.5",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1",
+    "node": "^20.15.0",
+    "telegraf": "^4.16.3",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.11"
+  }
+
+ 
+}
