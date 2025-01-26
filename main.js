@@ -1,5 +1,5 @@
-import * as THREE from './node_modules/three';
-import { OrbitControls } from './node_modules/three/examples/jsm/Addons.js';
+import * as THREE from './tree/master/node_modules/three';
+import { OrbitControls } from './tree/master/node_modules/three/examples/jsm/Addons.js';
 const scene = new THREE.Scene()
 
 const geometry = new THREE.OctahedronGeometry(2, 0)
