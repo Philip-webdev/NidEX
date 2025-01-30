@@ -2,7 +2,7 @@
   "name": "NidEX",
   "version": "1.0.0",
   "description": "blockchain 3d website",
-  "main": "y",
+  "main": "",
   "scripts": {
     "test": "npx vite",
   "build": "vite build",
