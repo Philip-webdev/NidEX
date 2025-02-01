@@ -26,9 +26,9 @@ body, html{
     width:100%;
 }
 #card-sect{
-    position: absolute;
+ 
     justify-content: space-between;
-     top: 77%;
+     top: 70%;
     text-align: center;
 }
 #card-group{
