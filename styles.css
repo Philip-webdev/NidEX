@@ -56,7 +56,9 @@ body, html{
     text-decoration: none;
     color: white;
  }
-
+p{
+    color: grey;
+}
  #title{
    margin-left: 17px;
  
@@ -105,7 +107,7 @@ ul{
 }
 article{
     position: absolute;
-    top:100px;
+    top:150px;
     color:white;
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
@@ -122,3 +124,24 @@ li{
 .title{
     color: white;
 }
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: rgb(223, 206, 206);
+    justify-content: start; 
+    display: flex;
+    width: 100%;
+    background: rgb(33,33,33);
+  }
+  ol{
+      text-decoration: none;
+      list-style: none;
+      width: 100%;
+      background: linear-gradient( rgb(0 0 0 / 1.0), rgb(0 0 0 / 0));
+      
+  }
+  li{
+    margin:40px;
+  }
