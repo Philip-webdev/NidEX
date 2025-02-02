@@ -45,7 +45,7 @@ body, html{
             border-radius: 7px;
             padding: 50px;
             margin: 7px;
-            border-color: aqua;
+            border-color: RGB(0, 131, 208);
             border-style: groove;
             border-width: 1px;
             color:grey;
