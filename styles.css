@@ -8,48 +8,56 @@
 }
 
 body, html{
-    overflow-x: hidden;
-    width:fit-content;
-    height: fit-content;
+     
+    width:100%;
+    height: 100%;
     font-family: Lexend;
     background: black;
 }
 .webgl{
-
-    top: 0;
-    left: 0;
     right:0;
      
-    margin: 0;
+    zoom:100%;
     
-    z-index: -1;
-    width:100%;
+     
 }
 #card-sect{
- position:absolute;
-    justify-content: space-between;
-     top: 70%;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+#team{
+   
+    margin: 40px;
     text-align: center;
+}
+#show{
+display: inline-flex;
+
+background: none;
 }
 #card-group{
     display: flex;
-   
-  justify-content: space-evenly;
+     justify-content: space-around;
+   margin: auto;
+    
+  
              
 }
 #why{
-    margin-bottom: 10px;
+    margin: 40px;
+    text-align: center;
 }
 .card{
     
             border-radius: 7px;
-            padding: 50px;
-            margin: 7px;
+            
+            text-align: center;
             border-color: RGB(0, 131, 208);
             border-style: groove;
             border-width: 1px;
             color:grey;
-            width: 100%;
+            width: 200px;
         
 }
  a{
@@ -58,40 +66,43 @@ body, html{
  }
 p{
     color: grey;
+     
 }
  #title{
-   margin-left: 17px;
+   left: 0;
  
  }
  #exchange{
     border-radius: 17px;
-    background-color: RGB(0, 131, 208);
+    background-color: white;
     padding:7px;
     height:30px;
-    margin-left:80px;
-    margin-right: 17px;
-    color: white;
-    margin-top: 10px;
+    margin-left: 15%;
+    color: black;
+    margin-top: 6px;
     border-style: none;
  }
  #Join{
-    border-radius: 17px;
+    border-radius: 10px;
     background-color: RGB(0, 131, 208);
-    padding:7px;
-    height:70px;
-   
+    padding:10px;
+    height:50px;
     font-size: 30px;
-    width: 200px;
+    width: fit-content;
     color: white;
-    margin-top: 10px;
     border-style: none;
  }
  h2{
     color:'white';
  }
+ h5{
+    font-size: small;
+ }
 nav{
-    z-index:0;
+    z-index:2;
     top:0;
+    right: 0;
+    left: 0;
     backdrop-filter: blur(500px);
     position: absolute;
     width:100%;
@@ -101,44 +112,53 @@ ul{
     list-style: none;
     color:white; background: rgb(15,15,15);
     height:50px;
-    justify-content: space-between;
-    display: flex;  position: absolute;
-    width:100%;
+      
+    display: flex; 
+    
 }
 article{
-    position: absolute;
-    top:150px;
+    /* position: relative; */
+     /* top:150px;   */
     color:white;
-    text-align:center;
+    margin-top: 10%;  
+    text-align:left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:100px;
-    width: 100%;
+    font-size:70px;
+    background: none;
+    /* width: 100%; */
 }
 li{
   
     margin-top:10px;
   }
+  .navig1{
+    margin-left: 40%;
+  }
+  .navig{
+    margin-left: 7%;
+  }
   .parag{
     margin: 7px;
+    padding: 10px;
+    font-size: smaller;
   }
 .title{
     color: white;
 }
 
 .footer {
-    position: relative;
+    top: 100%;
+    width: 100%;
     bottom: 0;
-    width: 100%;
     color: rgb(223, 206, 206);
-    justify-content: start; 
+      font-size: smaller;
     display: flex;
-    width: 100%;
-    background: rgb(33,33,33);
+    /* background: rgb(33,33,33); */
   }
   ol{
       text-decoration: none;
       list-style: none;
-      width: 100%;
+      margin: 40px;
       background: linear-gradient( rgb(0 0 0 / 1.0), rgb(0 0 0 / 0));
       
   }

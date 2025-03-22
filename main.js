@@ -2,11 +2,11 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 const scene = new THREE.Scene()
 
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth   / window.innerHeight , 1, 1000);
 const canvas = document.querySelector(".webgl");
 const renderer = new THREE.WebGLRenderer({canvas})
 
-renderer.setSize(window.innerWidth, window.innerHeight);
+renderer.setSize(700, 300 );
 
     // Create a geometry for the coin (cylinder)
     const geometry = new THREE.CylinderGeometry(1, 1, 0.1, 100);
@@ -21,17 +21,19 @@ renderer.setSize(window.innerWidth, window.innerHeight);
     // Create the coin mesh
     const coin = new THREE.Mesh(geometry, material);
     coin.rotation.y = Math.PI / 2;
-    camera.position.set(0, 1.5, 3); 
-    camera.lookAt(coin.position); 
+     
+    // camera.position.set(0, 0.5); 
+    // camera.lookAt(coin.position); 
     // Add the coin to the scene
     scene.add(coin);
     
- const light = new THREE.HemisphereLight(0xFFFFFF,0x23A8F2)
- light.position.set(10, 10, 10)
+ const light = new THREE.HemisphereLight(0x23A8F2)
+ light.position.set(30, 30, 30)
  scene.add(light)
     // Position the camera
-    camera.position.z = 3;
-    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.position.z = 2;
+     
+      camera.aspect = window.innerWidth   / window.innerHeight ;
     camera.updateProjectionMatrix()
     // Animation loop
     function animate() {
@@ -54,10 +56,10 @@ controls.enableZoom = false
 controls.autoRotate = false
 controls.autoRotateSpeed = 0
 
- window.addEventListener('resize', ()=>{
-      window.innerWidth;
-      window.innerHeight;
- })
+//  window.addEventListener('resize', ()=>{
+//       window.innerWidth;
+//       window.innerHeight;
+//  })
 
   
 
